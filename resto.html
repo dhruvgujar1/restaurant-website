@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>khana khajana</title>
+    <script src="https://kit.fontawesome.com/222fffd1ba.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+} 
+*{
+    background-color: bisque;
+}
+body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto",sans-serif;
+   
+}
+.container{
+    
+}
+.navigation_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation_container,
+.logo_container
+{
+max-width: 1400px;
+margin: 0 30px;
+}
+nav{
+
+    position: sticky;
+    top: 0;
+    margin-bottom: 32px;
+    background:red;
+    padding: 10px;
+    margin: 0;
+    z-index: 50;
+}
+.bar-icon{
+    font-size: 25px;
+}
+.container{
+    display: flex;
+    gap: 130px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    
+   
+}
+.hero-content{
+    display: flex;
+   flex-direction: column;
+    gap: 20px;
+
+}
+
+.tag{
+
+    background-color: #149f39;
+    padding: 5px 10px;
+    color: white;
+    align-self: flex-start;
+    margin-bottom: 30px;
+}
+.hero-content h1{
+    font-size: 72px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+button{
+   padding:  10px 15px;
+   border: none;
+   transition: 0.2s ease-in-out;
+   background-color: #ffc066;
+   align-self: flex-start;
+
+}
+button:hover{
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+.features{
+    margin-top: 100px;
+    display: flex;
+    padding: 30px;
+    transition: 0.5s ease-in-out;
+   
+    margin: 0;
+  
+
+}
+  .feature{
+    display: flex;
+    gap:10px
+    transition: 0.5s ease-in-out;
+  
+  }
+    
+.feature:hover{
+    transition: 0.2s;
+   transform: scale(1.06);
+  
+}
+.feature img{
+    margin: 10px;
+}
+
+.title{
+    display: flex;
+   align-items: center;
+   padding-right: 510px;
+  text-decoration: none;
+  letter-spacing: 5px;
+  font-weight:bolder;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.menu h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+   
+.menu .tag {
+    margin-left: 700px;
+}
+.grid-image {
+
+  transition: 0.2s ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+.grid-image:hover{
+    transition: 0.2s ease-in-out;
+scale: 1.05;
+}
+.grid{
+    display: grid;
+    gap: 15PX;
+    margin: 40px;
+  grid-template-areas:
+     "I1 I1 I2 I3 "
+     "I1 I1 I2 I7 "
+     "I4 I5 I6 I7 ";
+    
+}
+.item1{
+ grid-area: I1;
+
+}
+.item2{
+   grid-area: I2;
+}
+.item3{
+   grid-area: I3;
+}
+.item4{
+   grid-area: I4;
+}
+.item5{
+   grid-area: I5;
+}
+.item6{
+   grid-area: I6;
+}
+.item7{
+    grid-area: I7;
+}
+footer{
+    background-color: #fff0db;
+}
+.footer-container{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.icon-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-list h3{
+    color: grey;
+}
+.news-letter h3{
+color: grey;
+}
+.link-list ul{
+    list-style: none;
+}
+.news-letter ul{
+    list-style: none;
+}
+.mail h3{
+    color: grey;
+    margin: 10px;
+}
+.icons:hover{
+   transform: scale(2);
+}
+input{
+    padding: 8px;
+}
+.credit{
+    background-color: black;
+    color: white;
+    padding: 30px;
+   
+}
+.credit h3{
+    text-align: center;
+    text-shadow: 4px 3px 5px rgb(189, 162, 227);
+    text-decoration: underline;
+}
+ 
+.title h1{
+   /* text-shadow: 2px 5px 3px rgb(15, 17, 6); */
+  font-weight: bolder;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+/*.credit:hover{
+    background-color: white;
+    color: black;
+    text-shadow: 5px 5px 5px black;
+}*/ 
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="navigation_container">
+
+    <div class="logo_container">
+        <img src="image/logo.png" alt="">
+    </div>
+    <div class="bar-icon">
+        <i class="fa-sol
+        id fa-bars"></i>
+    </div>
+       <div class="title">
+        <h1><i> dhruva's kitchen</i></h1>
+       </div>
+      
+    </nav>
+   
+   <div class="container">
+    <div class="hero">
+        <div class="hero-image">
+        <img src="image/hero_image.png" alt="">
+        </div>
+    </div>
+<div class="hero-content">
+    <div class="tag">50% Off on All Project</div>
+
+    <h1>ENJOY YOUR    DELICIOUS FOOD</h1>
+    <P>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, accusamus! Atque at similique velit corporis?
+    </P>
+    <button class="explore-button">
+        explore now
+    </button>
+</div>
+   </div>
+    <section class="features">
+        <div class="feature">
+            <img src="image/fresh.png" alt="">
+            <div class="feature-content">
+                <h3>fresh food</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </div>
+        </div>
+            <div class="feature">
+                <img src="image/discount.png" alt="">
+                <div class="feature-content">
+                    <h3>discount voucher</h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+            </div>
+                <div class="feature">
+                    <img src="image/delivery.png" alt="">
+                    <div class="feature-content">
+                        <h3>fastest home delivery</h3>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </div>
+                 </div>
+    
+
+  
+    </section>
+    <section class="divider">
+
+        <div class="menu">
+            <div class="tag">our menu </div>
+            <h2>Explore our menu</h2>
+        </div>
+   
+       <div class="grid">
+        <div class= "item1">
+            <img  class="grid-image" src="image/grid_image1.png" alt="image">
+           
+        </div>
+       
+       <div class="item2">
+        <img  class="grid-image" src="image/grid_image2.png" alt="">
+    </div>
+    <div class="item3">
+        <img   class="grid-image" src="image/grid_image3.png" alt="">
+    </div>
+    <div class="item4">
+        <img  class="grid-image" src="image/grid_image4.png" alt="">
+    </div>
+    <div class="item5">
+        <img    class="grid-image" src="image/grid_image5.png" alt="">
+    </div>
+    <div class="item6">
+        <img   class="grid-image" src="image/grid_image6.png" alt="">
+    </div>
+    <div class="item7">
+        <img   class="grid-image" src="image/grid_image7.png" alt="">
+    </div>
+    </section>
+    <footer>
+         <div class="footer-container">
+            <div class="footer-logo">
+                <img src="image/logo.png" alt="">
+            </div>
+            <div class="link-list">
+            
+            <h3>main links</h3>  
+            <ul>
+                <li>order tracking</li>
+                <li>new order</li>
+                <li>contact us</li>
+                <li>news & blogs</li>
+            </ul>  
+        </div>
+            <div class="news-letter">
+                <h3>support</h3>
+                <ul>
+                    <li>about us </li>
+                    <li>privacy polivcy</li>
+                    <li>terms & condition </li>
+                </ul>
+            </div>
+            
+            <div class="mail">
+                <h3>support</h3>
+                <input type="email" placeholder="Dhruvgujar0@gmail.com">
+                <h3>follow us </h3>
+            
+            <div class="icon-container">
+                <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                </div>
+                <div class="icons">
+                    <i class="fa fa-instagram"></i>
+                </div>
+                <div class="icons">
+                    <i class="fa fa-twitter"></i>
+                </div>
+                <div class="icons">
+                    <i class="fa fa-youtube"></i>
+                </div>
+            </div>
+         </div>
+         </footer>
+         <div class="credit">
+            <h3> project by dhruv gujar</h3>
+         </div>
+  
+</body>
+</html>
